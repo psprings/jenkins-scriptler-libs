@@ -1,0 +1,17 @@
+{
+  "comment": "Script to allow remote user creation given a Username, Password, and Permission (optional)",
+  "alwaysExecuteOnMaster": false,
+  "enableRunScriptsExecution": false,
+  "parameters": [
+    {
+      "name": "USERNAME"
+    },
+    {
+      "name": "PASSWORD"
+    },
+    {
+      "name": "PERMISSION",
+      "default": "READ"
+    }
+  ]
+}
