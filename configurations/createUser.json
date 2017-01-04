@@ -4,13 +4,16 @@
   "enableRunScriptsExecution": false,
   "parameters": [
     {
-      "name": "USERNAME"
+      "name": "username"
     },
     {
-      "name": "PASSWORD"
+      "name": "password"
     },
     {
-      "name": "PERMISSION",
+      "name": "base64"
+    },
+    {
+      "name": "permission",
       "default": "READ"
     }
   ]
